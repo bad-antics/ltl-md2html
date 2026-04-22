@@ -1,0 +1,15 @@
+// ltl-md2html/main.ltl
+//
+// Single-pass Markdown to HTML converter (CommonMark subset).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-md2html v0.1.0")
+    io::println("Single-pass Markdown to HTML converter (CommonMark subset).")
+    0
+}
