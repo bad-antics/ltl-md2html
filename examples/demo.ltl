@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_md2html
+
+import std::io
+use ltl_md2html as lib
+
+fn main() {
+    io::println("ltl_md2html demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
